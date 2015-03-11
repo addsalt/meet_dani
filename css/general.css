@@ -303,7 +303,7 @@ ul {
 .icon-li:before { content: '\e803'; } 
 
 
-.contact-p {
+.contact-p, .error h1, .error a, .notice {
     text-align: center;
     width: 100%;
     font-size: 1.85rem;
@@ -355,4 +355,31 @@ ul {
 .socialmedia li {
     display: inline-block;
     margin: 1rem;
+}
+
+
+.error {
+    background-color: #c0ff60;
+    color: #202020;
+    text-align: center;
+}
+
+.stapler {
+    max-width: 20rem;
+}
+
+.error h1 {
+    max-width: 36rem;
+}
+
+.error a {
+    display: block;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.notice {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
 }
