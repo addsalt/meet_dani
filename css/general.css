@@ -360,7 +360,7 @@ ul {
 
 .error {
     background-color: #c0ff60;
-    color: #202020;
+    color: #242322;
     text-align: center;
 }
 
@@ -379,7 +379,7 @@ ul {
 }
 
 .notice {
-    font-size: 1.25rem;
-    color: #ffffff;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: #242322;
+    margin-bottom: .5rem;
 }
