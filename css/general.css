@@ -383,3 +383,95 @@ ul {
     color: #242322;
     margin-bottom: .5rem;
 }
+
+
+/* Web Work */
+
+.webwork-p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    color: #b5aa50;
+}
+
+#intro-web {
+    text-align: center;
+    padding: 12rem;
+}
+
+#intro-web h1 {
+    margin: 0;
+}
+
+.web-link {
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    background-color: #393939;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 200ms linear;
+    letter-spacing: normal;
+    text-rendering: auto;
+    vertical-align: middle;
+    word-spacing: normal;
+    display: inline-block;
+    visibility: visible;
+}
+
+.bg-2 {
+    background-color: #313131;
+}
+
+.web-link:hover {
+    background-color: grey;
+}
+
+
+.title {
+    display: block;
+    position: relative;
+    padding: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 63em) {
+
+    .title {
+        display: block;
+        position: relative;
+        padding: 5rem;
+    }
+}
+
+.web-work {
+    width: 100%;
+    position: relative;
+}
+
+
+.website {
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    background-color: #303030;
+    padding: 3rem 0;
+    color: white;
+}
+
+@media only screen and (min-width: 63em) {
+    
+    footer {
+        padding: 7rem 15rem;
+    }
+    
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px;
+}
