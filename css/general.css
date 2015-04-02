@@ -394,6 +394,10 @@ ul {
     color: #b5aa50;
 }
 
+.webwork-p ::selection {
+    background-color: #ededed;
+}
+
 #intro-web {
     text-align: center;
     padding: 12%;
@@ -460,6 +464,7 @@ ul {
 
 .website {
     text-decoration: none;
+    color: #b5aa50;
 }
 
 footer {
@@ -480,4 +485,12 @@ footer {
 footer ul li {
     display: inline-block;
     margin: 10px;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+}
+
+.push-top {
+    margin-top: 1rem;
 }
