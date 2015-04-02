@@ -396,7 +396,13 @@ ul {
 
 #intro-web {
     text-align: center;
-    padding: 12rem;
+    padding: 12%;
+}
+
+@media only screen and (min-width: 63em) {
+    #intro-web {
+        padding: 12rem;
+    }
 }
 
 #intro-web h1 {
